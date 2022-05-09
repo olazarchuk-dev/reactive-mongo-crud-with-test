@@ -4,9 +4,9 @@
 
 ### Default MongoDB connection:
 `
-host = localhost;
-port = 27017;
-database = test;
+Host = localhost;
+Port = 27017;
+Database = test;
 `
 
 Collection: `freelancers`
