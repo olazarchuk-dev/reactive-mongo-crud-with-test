@@ -66,15 +66,16 @@ public class FreelancerRepositoryTest {
         System.out.println(jsonFreelancers);
 
         //  WHEN
-//        var collectionExists = mongoTemplate.collectionExists("freelancers")
-//                .block(Duration.ofSeconds(30));
+        var collectionExists = mongoTemplate.collectionExists("freelancers")
+                .block(Duration.ofSeconds(30));
 
         //  THEN
-//        // Expected exists new collection is true
-//        assertThat(collectionExists).isTrue();
+        // Expected exists new collection is true
+        assertThat(collectionExists).isTrue();
 
         String id = "62751dab37455e17fe38c34b";
-        var monoFreelancer = freelancerRepository.findById(id);
-//        System.out.println(monoFreelancer);
+        var monoFreelancer = freelancerRepository.findById(id)
+                .block(Duration.ofSeconds(30));
+        System.out.println(monoFreelancer);
     }
 }
