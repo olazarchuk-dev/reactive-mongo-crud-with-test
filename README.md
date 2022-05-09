@@ -1,6 +1,6 @@
 # SpringData Reactive MongoDB with Mockito
 
-* `Tutorial`: https://russianblogs.com/article/376818931/
+* `Tutorial`: https://russianblogs.com/article/376818931
 
 ### Default MongoDB connection:
 `
