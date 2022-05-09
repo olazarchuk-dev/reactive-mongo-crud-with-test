@@ -1,7 +1,6 @@
-# Spring Data Reactive MongoDB CRUD Example
+# SpringData Reactive MongoDB with Mockito
 
-* `Tutorial`: https://www.vinsguru.com/spring-data-reactive-mongodb
-* `Repo`: https://github.com/vinsguru/vinsguru-blog-code-samples/tree/master/db/reactive-mongo-crud
+* `Tutorial`: https://russianblogs.com/article/376818931/
 
 ### Default MongoDB connection:
 `
